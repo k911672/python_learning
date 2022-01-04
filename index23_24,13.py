@@ -1,29 +1,29 @@
 # 23.
 # int型とboolean型を渡し boolean型がtrueなら　int型を1プラスする　falseなら1マイナスする関数を作成してください
 
-# num = 2
-# boo = False
+num = 2
+boo = False
 
-# def judge_boo(num, boo):
-#   if boo == True:
-#     return num + 1
-#   else:
-#     return num - 1
+def judge_boo(num, boo):
+  if boo == True:
+    return num + 1
+  else:
+    return num - 1
 
-# print(judge_boo(num, boo))
+print(judge_boo(num, boo))
 
 # // 24.
 # // int型とString型を渡しそのint型の数値の回数分　型の内容Stringを出力する関数を作成してください
 # // (int型が0以下の場合　「範囲外の入力値です」と出力してください
 
-# num = 4
-# text = "バナナ"
+num = 4
+text = "バナナ"
 
-# def loop_text(num, text):
-#   for i in range(0, num):
-#     print(text)
+def loop_text(num, text):
+  for i in range(0, num):
+    print(text)
 
-# loop_text(num, text)
+loop_text(num, text)
 
 # // ★★★★★★★★★★★★★★★
 # // せっかくですので、ここで追加問題といきますね。再帰関数の問題です。
